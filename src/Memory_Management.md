@@ -1,4 +1,5 @@
 # 🦀 Memory Management in Rust  
+![My Image](images/Memory.webp)
 
 Whenever you run a program (C++, Rust, JS), it allocates and deallocates memory on **RAM**.  
 
@@ -71,6 +72,8 @@ Rust achieves this using:
 * Rust enforces that references are always valid.
 * **Lifetimes** describe how long a reference is valid.
 * Prevents dangling pointers and invalid memory access.
+
+![My Image](images/memory_management.webp)
 
 ---
 
