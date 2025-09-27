@@ -1,4 +1,5 @@
 pub fn show() {
+    println!(">>> String & Char Demo <<<");
     // String slice (&str)
     let greeting: &str = "Hello Rust!";
     println!("Greeting (string slice): {}", greeting);

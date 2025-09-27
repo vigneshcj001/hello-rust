@@ -1,4 +1,6 @@
 pub fn run() {
+    println!(">>> Integer & Float Demo <<<");
+
     let x: i8 = -10;
     let y: u32 = 10;
     let z: f32 = 10.0;

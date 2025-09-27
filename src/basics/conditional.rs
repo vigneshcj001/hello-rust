@@ -1,4 +1,5 @@
 pub fn check_number(num: i32) {
+    println!(">>> Conditional Demo <<<");
     println!("Number received: {}", num);
 
     // if-else ladder

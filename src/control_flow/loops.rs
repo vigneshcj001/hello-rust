@@ -1,4 +1,5 @@
-pub fn run() {
+pub fn run(){
+    println!(">>> Loops Demo <<<");
     // while loop
     let mut count = 0;
     while count < 5 {

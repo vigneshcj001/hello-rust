@@ -1,4 +1,6 @@
 pub fn male() {
+    println!(">>> Boolean Demo <<<");
+
     let is_male: bool = true;
     let is_above_18: bool = true;
 
@@ -21,6 +23,5 @@ pub fn male() {
     // More boolean examples
     let can_vote = is_above_18;
     println!("Can vote? {}", can_vote);
-
     println!("Not male = {}", !is_male);
 }

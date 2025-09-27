@@ -1,4 +1,5 @@
 pub fn stack_heap() {
+    println!(">>> Stack and Heap Demo <<<");
     stack_fn();
     heap_fn();
     update_string();
