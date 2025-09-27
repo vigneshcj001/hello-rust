@@ -11,6 +11,9 @@ mod control_flow{
 mod memory{
     pub mod stack_and_heap;
 }
+mod ownership{
+    pub mod ownership_demo;
+}
 fn main() {
     // We can write println! or print!
     println!("=== Welcome to Rust Learning Demo ===\n");
@@ -36,4 +39,7 @@ fn main() {
 
     println!("\n--- Stack and Heap ---");
     memory::stack_and_heap::stack_heap();
+
+    println!("\n--- Ownership demo ---");
+    ownership::ownership_demo::run();
 }
